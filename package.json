@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "0.21.1",
     "vue": "2.6.12",
+    "vue-template-compiler": "2.6.12",
     "vue-devtools": "5.1.4",
     "vue-router": "3.5.1"
   },
