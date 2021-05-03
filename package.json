@@ -1,22 +1,18 @@
 {
-  "name": "tracktik-frontend-challenge",
+  "name": "mobile-frontend-challenge",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "postinstall": "npm run build"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "0.21.1",
     "vue": "2.6.12",
-    "vue-template-compiler": "2.6.12",
-    "vue-router": "3.5.1"
+    "vue-devtools": "5.1.4",
+    "vue-router": "3.5.1",
+    "vue-template-compiler": "2.6.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
